@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">A 24i Test</string>
+    <string name="no_record">No record...</string>
+    <string name="thanks_msg">The pro app developer.</string>
+</resources>
