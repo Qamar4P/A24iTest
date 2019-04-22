@@ -31,13 +31,14 @@ class MoviesApiTest {
 
     @Test
     fun getMovies_pageOne() {
+
         service.movies(1)
-            .test().assertValueCount(1).assertNoErrors();
+        .test().awaitCount(1).assertValueCount(1).assertNoErrors();
     }
 
     @Test
     fun getMovies_movies() {
         dataManger.movies(1)
-            .test().assertValueCount(1).assertNoErrors();
+            .test().awaitCount(1).assertValueCount(1).assertNoErrors();
     }
 }
