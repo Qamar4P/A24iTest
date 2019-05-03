@@ -65,7 +65,9 @@ class MovieGridFragment : BaseFragment() {
             updateAdapter(movies?: arrayListOf())
         })
 
-        viewModel.loading.observe(this, Observer { loading -> progressBar.visibility = if (loading!!) View.VISIBLE else View.GONE })
+        viewModel.loading.observe(this, Observer {
+                loading -> progressBar.visibility = if (loading!!) View.VISIBLE else View.GONE
+        })
     }
 
     private fun updateAdapter(movies: List<Movie>) {

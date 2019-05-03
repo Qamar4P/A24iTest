@@ -35,10 +35,4 @@ class MoviesApiTest {
         service.movies(1)
         .test().awaitCount(1).assertValueCount(1).assertNoErrors();
     }
-
-    @Test
-    fun getMovies_movies() {
-        dataManger.movies(1)
-            .test().awaitCount(1).assertValueCount(1).assertNoErrors();
-    }
 }
