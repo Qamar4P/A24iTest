@@ -16,7 +16,6 @@ import org.mockito.runners.MockitoJUnitRunner
  * Created by Qamar4P on 18/4/2019.
  * Islamabad, Pakistan.
  */
-@RunWith(MockitoJUnitRunner::class)
 class MoviesApiTest {
 
     private lateinit var service: MovieService
