@@ -7,7 +7,7 @@ Installation
 
 Clone this repository and import into **Android Studio**
 ```bash
-git clone https://github.com/Qamar4P/NYTimesArticles.git
+git clone https://github.com/Qamar4P/A24iTest.git
 ```
 
 Pre-requisites
